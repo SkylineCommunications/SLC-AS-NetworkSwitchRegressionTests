@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{0EF49435-9E65-4C42-A324-29A459AC8B77}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FA7863FB-F3B1-4075-8682-AE5E746CE8FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{879AD530-2AE6-4207-A8B1-3ED558661876}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{75848E17-1C83-4A3E-A09E-92B268BD5F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{4169AD23-0C76-4A3E-9FA6-F5CAFE9E6D5F}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{0943E46A-36DB-467D-8D65-463C8E678756}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{EA5C01A9-27E3-4ECE-A559-EE23B71BC3FB}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RT_NetworkSwitch_General", "RT_NetworkSwitch_General", "{26FC0749-9EB3-437B-A363-17A74EE55A8A}"
+	ProjectSection(SolutionItems) = preProject
+		RT_NetworkSwitch_General.xml = RT_NetworkSwitch_General.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{3BC10EBA-31C7-4BB3-8D15-B5C95E7D3104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT_NetworkSwitch_General_1", "RT_NetworkSwitch_General_1\RT_NetworkSwitch_General_1.csproj", "{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RT_NetworkSwitch_Interface", "RT_NetworkSwitch_Interface", "{20370197-84ED-4026-AB84-D0CE1F79D27B}"
+	ProjectSection(SolutionItems) = preProject
+		RT_NetworkSwitch_Interface.xml = RT_NetworkSwitch_Interface.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{A55C1D45-1BA7-424E-88A3-61A29A22B676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT_NetworkSwitch_Interface_1", "RT_NetworkSwitch_Interface_1\RT_NetworkSwitch_Interface_1.csproj", "{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4169AD23-0C76-4A3E-9FA6-F5CAFE9E6D5F} = {75848E17-1C83-4A3E-A09E-92B268BD5F1E}
+		{EA5C01A9-27E3-4ECE-A559-EE23B71BC3FB} = {0EF49435-9E65-4C42-A324-29A459AC8B77}
+		{26FC0749-9EB3-437B-A363-17A74EE55A8A} = {FA7863FB-F3B1-4075-8682-AE5E746CE8FE}
+		{3BC10EBA-31C7-4BB3-8D15-B5C95E7D3104} = {26FC0749-9EB3-437B-A363-17A74EE55A8A}
+		{93C0C48D-9C49-4E23-84FB-CD8DA17B3B1A} = {3BC10EBA-31C7-4BB3-8D15-B5C95E7D3104}
+		{20370197-84ED-4026-AB84-D0CE1F79D27B} = {FA7863FB-F3B1-4075-8682-AE5E746CE8FE}
+		{A55C1D45-1BA7-424E-88A3-61A29A22B676} = {20370197-84ED-4026-AB84-D0CE1F79D27B}
+		{A16CCA0D-D860-4F3F-AA29-E6E8FBE4BF6E} = {A55C1D45-1BA7-424E-88A3-61A29A22B676}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1BC6225-99A5-4BC1-97C3-57C2BEB3C654}
+	EndGlobalSection
+EndGlobal
