@@ -25,9 +25,9 @@ Evaluate how fast changes can be made to a specific interface. These script meas
 
 ## Supported connectors
 
-- [Aperi Chassis](https://catalog.dataminer.services/details/connector/5455)
-- [Arista Manager](https://catalog.dataminer.services/details/connector/4890)
-- [CISCO Nexus](https://catalog.dataminer.services/details/connector/2061)
+- [Aperi Chassis](https://catalog.dataminer.services/details/connector/5455) => [Library](https://www.nuget.org/packages/Skyline.DataMiner.ConnectorAPI.Aperi.Chassis)
+- [Arista Manager](https://catalog.dataminer.services/details/connector/4890) => [Library](https://www.nuget.org/packages/Skyline.DataMiner.ConnectorAPI.Arista.Manager)
+- [CISCO Nexus](https://catalog.dataminer.services/details/connector/2061) => [Library](https://www.nuget.org/packages/Skyline.DataMiner.ConnectorAPI.Cisco.Nexus)
 
 > [!TIP]
 > Support for other connectors can be added by creating a library for that connector that implements the INetworkSwitch interface from the [Network Devices](https://www.nuget.org/packages/Skyline.DataMiner.Utils.NetworkDevices) library.
