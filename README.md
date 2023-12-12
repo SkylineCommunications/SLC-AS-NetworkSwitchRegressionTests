@@ -29,5 +29,5 @@ Evaluate how fast changes can be made to a specific interface. These script meas
 - [Arista Manager](https://catalog.dataminer.services/details/connector/4890)
 - [CISCO Nexus](https://catalog.dataminer.services/details/connector/2061)
 
-[!TIP]
-Support for other connectors can be added by creating a library for that connector that implements the INetworkSwitch interface from the [Network Devices](https://www.nuget.org/packages/Skyline.DataMiner.Utils.NetworkDevices) library.
+> [!TIP]
+> Support for other connectors can be added by creating a library for that connector that implements the INetworkSwitch interface from the [Network Devices](https://www.nuget.org/packages/Skyline.DataMiner.Utils.NetworkDevices) library.
