@@ -17,7 +17,7 @@
     <DefineConstants>$(DefineConstants);DCFv1;DBInfo;ALARM_SQUASHING</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Skyline.DataMiner.ConnectorAPI.Aperi.Chassis" Version="1.0.0-DEV.DCP224620.6" />
+    <PackageReference Include="Skyline.DataMiner.ConnectorAPI.Aperi.Chassis" Version="1.0.0-DEV.DCP224620.9" />
     <PackageReference Include="Skyline.DataMiner.ConnectorAPI.Arista.Manager" Version="1.0.0.2" />
     <PackageReference Include="Skyline.DataMiner.ConnectorAPI.Cisco.Nexus" Version="1.0.0.1" />
     <PackageReference Include="Skyline.DataMiner.Core.DataMinerSystem.Automation" Version="1.1.1.3" />
